@@ -40,7 +40,6 @@ a {
 
 .box-shadow {
     @include drop-shadow();
-    @include opacity();
 }
 
 .box-shadow-custom {
