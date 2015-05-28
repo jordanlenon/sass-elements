@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SASS Elements</title>
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="example/style.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="top-header">
+            <h1>SASS Elements</h1>
+            <p>
+                A set of useful <a href="http://sass-lang.com/" target="_blank">SASS</a> mixins based on
+                <a href="http://lesselements.com/" target="_blank" rel="nofollow">lesselements.com</a>.
+                <br>
+                See on <a href="http://sass-lang.com/" target="_blank"><strong>Github</strong></a>.
+            </p>
+        </header>
+
+        <div class="box box-shadow">
+            Box shadow
+            <br>
+            <span class="usage">@include drop-shadow();</span>
+        </div>
+
+        <div class="box box-shadow-custom">
+            Box shadow with custom properties
+            <br>
+            <span class="usage">@include drop-shadow(4px, 4px, 12px, 0.5);</span>
+        </div>
+
+        <div class="box box-gradient">
+            Box gradient
+            <br>
+            <span class="usage">@include gradient();</span>
+        </div>
+
+        <div class="box box-gradient-custom">
+            Box gradient with custom properties
+            <br>
+            <span class="usage">@include gradient(#444, #222, #000);</span>
+        </div>
+
+    </div>
+</body>
+</html>

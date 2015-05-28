@@ -1,0 +1,62 @@
+@import '../elements.scss';
+
+* {
+    @include box-sizing();
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #575757;
+    font-family: 'Open Sans', sans-serif;
+    color: #555;
+}
+
+h1 {
+    color: #fff;
+}
+
+a {
+    color: #fff;
+}
+
+.top-header {
+    color: #ccc;
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 60px;
+}
+
+.box {
+    margin-top: 50px;
+    padding: 30px;
+    background: #fff;
+}
+
+.box-shadow {
+    @include drop-shadow();
+    @include opacity();
+}
+
+.box-shadow-custom {
+    @include drop-shadow(4px, 4px, 12px, 0.5);
+}
+
+.box-gradient {
+    @include gradient();
+}
+
+.box-gradient-custom {
+    @include gradient(#444, #222, #000);
+}
+
+.usage {
+    color: #999;
+    display: block;
+    margin-top: 15px;
+}
