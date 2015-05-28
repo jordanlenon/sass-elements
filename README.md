@@ -8,6 +8,6 @@
 
 `.box-gradient { @include gradient(#444, #222, #000); }`
 
-`.box-rounded { @include rounded($radius: 2px); }`
+`.box-rounded { @include rounded(2px); }`
 
 See more in elements.scss, is very simple :)
